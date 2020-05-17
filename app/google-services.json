@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "637884775413",
+    "firebase_url": "https://light-meter-android-things.firebaseio.com",
+    "project_id": "light-meter-android-things",
+    "storage_bucket": "light-meter-android-things.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637884775413:android:c2204b5b540dbea7797ebc",
+        "android_client_info": {
+          "package_name": "com.ubb.companionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637884775413-761avar1afkj7l5182csf8f68hfle4po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7yXUhsv7H68GvxkqDff4EBcgN3IJi-4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637884775413-761avar1afkj7l5182csf8f68hfle4po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637884775413:android:cca44fa16c765dce797ebc",
+        "android_client_info": {
+          "package_name": "com.ubb.lightmeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637884775413-761avar1afkj7l5182csf8f68hfle4po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7yXUhsv7H68GvxkqDff4EBcgN3IJi-4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637884775413-761avar1afkj7l5182csf8f68hfle4po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637884775413:android:ca32e674c38425fb797ebc",
+        "android_client_info": {
+          "package_name": "com.ubb.sensorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637884775413-761avar1afkj7l5182csf8f68hfle4po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7yXUhsv7H68GvxkqDff4EBcgN3IJi-4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637884775413-761avar1afkj7l5182csf8f68hfle4po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
