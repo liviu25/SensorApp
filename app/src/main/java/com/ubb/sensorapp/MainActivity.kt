@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
 
-        val humiditySensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT)
+        val humiditySensor = sensorManager.getDefaultSensor(Sensor.TYPE_RELATIVE_HUMIDITY)
         val humiditySensorListener = HumiditySensorListener()
         sensorManager.registerListener(humiditySensorListener, humiditySensor, SensorManager.SENSOR_DELAY_NORMAL)
 
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         val lightSensorListener = LightSensorListener()
         sensorManager.registerListener(lightSensorListener, lightSensor, SensorManager.SENSOR_DELAY_NORMAL)
 
-        val temperatureSensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT)
+        val temperatureSensor = sensorManager.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE)
         val temperatureSensorListener = TemperatureSensorListener()
         sensorManager.registerListener(temperatureSensorListener, temperatureSensor, SensorManager.SENSOR_DELAY_NORMAL)
 
